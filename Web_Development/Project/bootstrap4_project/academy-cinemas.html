@@ -19,13 +19,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active"><!---active make it black-->
-              <a class="nav-link text-light" href="#">About </a>
+              <a class="nav-link text-light" href="#About">About </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-light" href="#">Showtimes</a>
+              <a class="nav-link text-light" href="#Showtimes">Showtimes</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-light" href="#">Deals</a><!---disabled deleted because it s the one that make it grey in colour-->
+              <a class="nav-link text-light" href="#Deals">Deals</a><!---disabled deleted because it s the one that make it grey in colour-->
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -41,57 +41,107 @@
           <p class="lead text-light">Sit back, relax, enjoy the show...</p>
         </div>
       </div>
-    </div>
+    
 
 
 
       <div class="container">
+      <div id="About">
         <div class="row">
+
           <div class="col-sm">    
-            <img class="img-fliud" src="./img/pdx.jpg" alt=""/>
+            <img class="img-fluid" src="./img/pdx.jpg" alt=""/>
           </div>
 
 
           <div class="col-sm">
-            
-            <h3>Accommodation:</h3>
+            <h3>Accommodations:</h3>
             <p>Located in beautiful Portland, Oregon's Pearl district, our reels have been spinning since 1959.</p>
             <p>Showing our guests a great time is our passion and seeing thier smiles is our pleasure!</p>
             <p>All od our auditoriums are equipped with brand new Christie 2D&reg; sound systems!</p>
             <p>Relax in our, extra-wide, plush cushioning recliners, Our seating arrangment is disability friendly &#9855;.</p>
-
           </div>
 
 
           <div class="col-sm">
-            
             <h3>Now Playing:</h3>
             <ul class="list-group">
               <li class="list-group-item">
-                <a class="nav-link" href="#">Kong: Skull Island</a>
+                <a class="nav-link" href="#Kong">Kong: Skull Island</a>
               </li>
-                <a class="nav-link" href="#">Ghost in the Shell</a>
+              <li class="list-group-item">
+                <a class="nav-link" href="#Ghost">Ghost in the Shell</a>
               </li>
-                <a class="nav-link" href="#">Beauty and the Beast</a>
+              <li class="list-group-item">
+                <a class="nav-link" href="#Beauty">Beauty and the Beast</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
+      </div>
 
       <!---showtimes-->
 
-
-      <!---showtimes-->
-
-      <div class="text-center">
-          <form>
-            <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1>
-            <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <div class="container my-5">
+      <div id="Showtimes">
+        <div class="row">
+            <div class="col-sm"> 
+              <div id="Kong">
+                <img class="img-fluid" src="./img/kongskullisland.jpg" alt=""/>
+                <h3 class="my-2">Kong Skull Island</h3>
+                <p> A crew that reaches Skull Island to map it, is attacked by a humongous ape. The survivors then regroup to find out more about the ape, the island's natives and underground monsters.</p>
+                <span class="badge badge-pill badge-info">1:00pm</span>
+                <span class="badge badge-pill badge-info">3:00pm</span>
+                <span class="badge badge-pill badge-info">5:30pm</span>
+                <span class="badge badge-pill badge-info">7:00pm</span>
+                <span class="badge badge-pill badge-info">9:30pm</span>
+              </div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+
+            <div class="col-sm">
+              <div id="Ghost">
+                <img class="img-fluid" src="./img/ghostintheshell.jpg" alt=""/>
+                <h3 class="my-2">Ghost in the Shell</h3>
+                <p>In the near future, Mira, the first cyber-human, must stop the growing cyber-terrorism. After discovering a secret of her identity, she sets out to learn more about her obscured past.</p>
+                <span class="badge badge-pill badge-info">1:00pm</span>
+                <span class="badge badge-pill badge-info">3:00pm</span>
+                <span class="badge badge-pill badge-info">5:30pm</span>
+                <span class="badge badge-pill badge-info">7:00pm</span>
+                <span class="badge badge-pill badge-info">9:30pm</span>
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div id="Beauty">
+                <img class="img-fluid" src="./img/beautyandthebeast.jpg" alt=""/>
+                <h3 class="my-2">Beauty and the Beast</h3>
+                <p>Belle, a village girl, embarks on a journey to save her father from a creature that has locked him in his dungeon. Eventually, she learns that the creature is an enchanted prince who has been cursed.</p>
+                <span class="badge badge-pill badge-info">1:00pm</span>
+                <span class="badge badge-pill badge-info">3:00pm</span>
+                <span class="badge badge-pill badge-info">5:30pm</span>
+                <span class="badge badge-pill badge-info">7:00pm</span>
+                <span class="badge badge-pill badge-info">9:30pm</span>      
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---showtimes end-->
+
+      <dix class="container">
+        <div id="Deals">
+          <div class="text-center">
+            <form>
+              <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
       </div>
 
       <div class="container my-5">
@@ -110,6 +160,9 @@
           </li>
         </ul>
       </div>
+    </div>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
